@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.carrousel{
+  padding: 5%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.imagen1, .imagen2, .imagen3, .imagen4, .imagen5, .imagen6, .imagen7, .imagen8, .imagen9, .imagen10, .imagen11, .imagen12, .imagen13, .imagen14
+,.imagen15, .imagen16, .imagen17, .imagen18, .imagen19, .imagen20, .imagen21, .imagen22, .imagen23, .imagen24, .imagen25, .imagen26,
+.imagen27, .imagen28, .imagen29{
+  max-width: 100%;
+  max-height: auto;
+  text-align: center;
+  position: relative;
+  padding: 40px;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  background-color:greenyellow;
+  overflow: hidden;
+  width: 79%;
+  height: 0;
+  transition: 1s ease;
+}
+
+.textoimagen{
+  color:black;
+  font-size: 20px;
+  position: absolute;
+  width: fit-content;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.imagen1:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen2:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen3:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen4:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen5:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen6:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen7:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen8:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen9:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen10:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen11:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen12:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen13:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen14:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen15:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen16:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen17:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen18:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen19:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen20:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen21:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen22:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen23:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen24:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen25:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen26:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen27:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen28:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
+.imagen29:hover .overlay {
+  bottom: 0;
+  height: 20%;
+}
