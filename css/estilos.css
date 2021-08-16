@@ -24,6 +24,19 @@
   display: inline-block;
 }
 
+.leyenda {
+  white-space: pre-line;
+text-align: center; 
+display: block;
+  height: 80%;
+  bottom: 85%;
+  position: absolute;
+  width: 79%;
+border: black 2px solid;
+}
+
+
+
 .overlay {
   position: absolute;
   bottom: 100%;
